@@ -26,11 +26,17 @@
     
     <img src="https://help.glance.cx/images/Glance-Banner.png" width="600" height="15" alt="Glance logo">
 
-    <style>
+<style>
+  .table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Optional: adds spacing from top */
+  }
+
   table {
-    width: 70%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
+    width: 600px; /* Set a width for better layout control */
   }
 
   th, td {
@@ -52,9 +58,10 @@
   }
 </style>
 
-<table>
-  <thead>
-    <tr>
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
       <th>API</th>
       <th>Description</th>
     </tr>
@@ -72,8 +79,9 @@
       <td><p><a href="users.html">Users </a></p></td>
       <td><p> Enables administrators to manage user accounts within a group by providing endpoints to create, retrieve, update, and delete users.</p></td>
     </tr>
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>
 
     
     <img src="https://help.glance.cx/images/Glance-Banner.png" width="600" height="15" alt="Glance logo">
