@@ -1,158 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="https://developer.glance.cx/images/favicon.ico?1746453247" type="image/x-icon">
-  <title>Glance API</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f9fafb;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://developer.glance.cx/images/favicon.ico?1746453247" type="image/x-icon">
+    <title>Glance API</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      text-align: center;
-    }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+        }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
 
-    p {
-      font-size: 1.1rem;
-      color: #555;
-    }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-    img.banner {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-      margin: 30px auto;
-    }
+        .intro {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
 
-    .table-container {
-      margin: 40px auto;
-      overflow-x: auto;
-    }
+        img.banner {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 30px auto;
+        }
 
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-      background: white;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    }
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 40px 0;
+            text-align: left;
+        }
 
-    th, td {
-      padding: 16px;
-      text-align: left;
-    }
+        .api-section {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: box-shadow 0.2s;
+        }
 
-    thead {
-      background-color: #e9e9e9;
-      font-weight: 600;
-    }
+            .api-section:hover {
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
 
-    tr:nth-child(even) {
-      background-color: #e9e9e9;
-    }
+            .api-section h2 {
+                font-size: 1.3rem;
+                margin-bottom: 12px;
+            }
 
-    tr:hover {
-      background-color: #eef4fb;
-    }
+                .api-section h2 a {
+                    color: #0070f3;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
 
-    a {
-      color: #0070f3;
-      text-decoration: none;
-      font-weight: 500;
-    }
+                    .api-section h2 a:hover {
+                        text-decoration: underline;
+                    }
 
-    a:hover {
-      text-decoration: underline;
-    }
+            .api-section p {
+                color: #555;
+                font-size: 1rem;
+                line-height: 1.6;
+            }
 
-    nav {
-      margin-top: 40px;
-      font-size: 0.95rem;
-    }
+        nav {
+            margin-top: 40px;
+            font-size: 0.95rem;
+        }
 
-    nav a {
-      margin: 0 10px;
-    }
+            nav a {
+                margin: 0 10px;
+                color: #0070f3;
+                text-decoration: none;
+                font-weight: 500;
+            }
 
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.8rem;
-      }
+                nav a:hover {
+                    text-decoration: underline;
+                }
 
-      .table-container {
-        padding: 0 10px;
-      }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
 
-      table, th, td {
-        font-size: 0.9rem;
-      }
-    }
-  </style>
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://help.glance.cx/images/logo.svg" width="200" alt="Glance logo" />
-    <h1>Glance API Homepage</h1>
-    <p>Integrate Glance into your customer service workflows with secure, flexible APIs.</p>
-    <img src="https://help.glance.cx/images/Glance-Banner.png" class="banner" alt="Glance banner" />
+    <div class="container">
+        <img src="https://help.glance.cx/images/logo.svg" width="200" alt="Glance logo" />
+        <h1>Glance API Homepage</h1>
+        <p class="intro">Integrate Glance into your customer service workflows with secure, flexible APIs.</p>
+        <img src="https://help.glance.cx/images/Glance-Banner.png" class="banner" alt="Glance banner" />
 
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>API</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="roles.html">Roles</a></td>
-            <td>Manage role-based access control with endpoints to create, retrieve, update, and delete roles.</td>
-          </tr>
-          <tr>
-            <td><a href="users.html">Users</a></td>
-            <td>Manage user accounts within a group, including create, retrieve, update, and delete operations.</td>
-          </tr>
-          <tr>
-            <td><a href="groups.html">Groups</a></td>
-            <td>Retrieve access log details and information for a group.</td>
-          </tr>
-          <tr>
-            <td><a href="masking.html">Masking</a></td>
-            <td>Manage masking elements and pages with endpoints to create, retrieve, update, and delete.</td>
-          </tr>
-          <tr>
-            <td><a href="portal.html">Doc Share, Bookmarks, & Folders</a></td>
-            <td>Manage document share link, bookmark links, and folders with endpoints to create, retrieve, update, and delete.</td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="two-column">
+            <div class="api-section">
+                <h2><a href="roles.html">Roles</a></h2>
+                <p>Manage role-based access control with endpoints to create, retrieve, update, and delete roles.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><a href="users.html">Users</a></h2>
+                <p>Manage user accounts within a group, including create, retrieve, update, and delete operations.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><a href="groups.html">Groups</a></h2>
+                <p>Retrieve access log details and information for a group.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><a href="masking.html">Masking</a></h2>
+                <p>Manage masking elements and pages with endpoints to create, retrieve, update, and delete.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><a href="portal.html">Doc Share, Bookmarks, & Folders</a></h2>
+                <p>Manage document share link, bookmark links, and folders with endpoints to create, retrieve, update, and delete.</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="https://developer.glance.cx/">Glance Developer Center</a> |
+            <a href="https://help.glance.cx/">Glance Help Site</a>
+        </nav>
     </div>
-
-    <img src="https://help.glance.cx/images/Glance-Banner.png" class="banner" alt="Glance banner" />
-
-    <nav>
-      <a href="https://developer.glance.cx/">Glance Developer Center</a> |
-      <a href="https://help.glance.cx/">Glance Help Site</a>
-    </nav>
-  </div>
 </body>
 </html>
