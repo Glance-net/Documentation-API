@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\masking.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:masking.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\groups.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:groups.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +47,57 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "groups.html",
+              "DocumentMoniker": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\groups.html",
+              "RelativeDocumentMoniker": "groups.html",
+              "ToolTip": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\groups.html",
+              "RelativeToolTip": "groups.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T15:51:02.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "masking.html",
+              "DocumentMoniker": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\masking.html",
+              "RelativeDocumentMoniker": "masking.html",
+              "ToolTip": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\masking.html",
+              "RelativeToolTip": "masking.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-17T15:50:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
+              "WhenOpened": "2025-11-11T19:08:56.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\tjmaher\\source\\repos\\Documentation-API\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-11-11T15:45:09.142Z",
+              "EditorCaption": ""
             }
           ]
         }
