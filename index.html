@@ -44,11 +44,22 @@
             margin: 30px auto;
         }
 
+        /* New style for the version headers */
+        .version-header {
+            text-align: left;
+            font-size: 1.8rem;
+            margin-top: 50px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eaeaea;
+            color: #111;
+        }
+
         .two-column {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 30px;
-            margin: 40px 0;
+            margin: 20px 0 60px 0;
             text-align: left;
         }
 
@@ -124,6 +135,25 @@
         <p class="intro">Integrate Glance into your customer service workflows with secure, flexible APIs.</p>
         <img src="https://help.glance.cx/images/Glance-Banner.png" class="banner" alt="Glance banner" />
 
+        <h2 class="version-header">Version 1</h2>
+        <div class="two-column">
+            <div class="api-section">
+                <h2><img class="icon" src="images/group.png" width="25" alt="affiliations logo" /> <a href="affiliationsv1.html">Affiliations</a></h2>
+                <p>Manage user affiliations connecting them to parent groups and nested subgroups.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><img class="icon" src="images/group.png" width="25" alt="subgroups logo" /> <a href="subgroupsV1.html">Subgroups</a></h2>
+                <p>Create, update, and disassociate nested subgroups within a top-level parent group.</p>
+            </div>
+
+            <div class="api-section">
+                <h2><img class="icon" src="images/users.png" width="25" alt="users logo" /> <a href="usersv1.html">Users</a></h2>
+                <p>Manage users with bulk creation/deletion, advanced filtering, and group-level permissions.</p>
+            </div>
+        </div>
+
+        <h2 class="version-header">Version 0</h2>
         <div class="two-column">
             <div class="api-section">
                 <h2><img class="icon" src="images/roles.png" width="25" alt="roles logo" /> <a href="roles.html">Roles</a></h2>
@@ -156,7 +186,6 @@
             <a href="https://help.glance.cx/">Glance Help Site</a>
         </nav>
     </div>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECJT514RQQ"></script>
     <script>
   window.dataLayer = window.dataLayer || [];
